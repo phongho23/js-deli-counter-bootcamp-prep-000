@@ -25,7 +25,7 @@ function currentLine(p) {
   }
   else {
     for (var i = 0; i < ((p.length) - 1); i++) {
-      lineCurrent
+      lineCurrent[i] = (i + 1) + ". " + 
     }
  
     return "The line is currently: " + lineCurrent;
