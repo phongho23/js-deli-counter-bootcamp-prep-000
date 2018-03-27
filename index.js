@@ -24,7 +24,7 @@ function currentLine(p) {
     return "The line is currently empty.";
   }
   else {
-    for (var i = 0; i < ((p.length) + 1); i++) {
+    for (var i = 0; i < ((p.length) - 1); i++) {
       lineCurrent.push((i + 1) + ". " + p.slice(i, 1));
     }
  
