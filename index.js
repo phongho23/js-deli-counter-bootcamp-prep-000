@@ -24,8 +24,8 @@ function currentLine(p) {
     return "The line is currently empty.";
   }
   else {
-    for (var i = 0; i < ((p.length) - 1); i++) {
-      lineCurrent[i] = (i + 1) + ". " + 
+    for (var i = 0; i < p.length; i++) {
+      lineCurrent[i] = (i + 1) + ". " + p[i]
     }
  
     return "The line is currently: " + lineCurrent;
