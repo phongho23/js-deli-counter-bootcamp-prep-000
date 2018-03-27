@@ -25,7 +25,7 @@ function currentLine(p) {
   }
   else {
     for (var i = 0; i < ((p.length) - 1); i++) {
-      lineCurrent.push((i + 1) + ". " + p.slice(i, 1));
+      lineCurrent
     }
  
     return "The line is currently: " + lineCurrent;
